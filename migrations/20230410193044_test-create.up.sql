@@ -1,0 +1,6 @@
+CREATE TABLE newsletter (
+    id INTEGER PRIMARY KEY,
+    email TEXT NOT NULL UNIQUE,
+    is_subscribed BOOLEAN NOT NULL DEFAULT TRUE
+)
+
